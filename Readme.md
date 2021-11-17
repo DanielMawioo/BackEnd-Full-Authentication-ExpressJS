@@ -62,6 +62,7 @@ You should be able to see the app:
 This is a in progress project you can add:
 - 1. tests
 - 2. social login
+- 3. swagger
 
 Contact me here [Daniel Mawioo](mawioodaniel43@gmail.com)
 
