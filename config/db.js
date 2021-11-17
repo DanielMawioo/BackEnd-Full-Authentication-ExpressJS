@@ -3,11 +3,9 @@ const mongoose = require("mongoose");
 // Make connection to MongoDB
 const connectToMongoDB = async () => {
   try {
-    mongoose.connect("mongodb://localhost/YourDatabaseName", {
+    mongoose.connect("mongodb://localhost:27017/node-auth", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useCreateIndex: true,
-      useFindAndModify: false,
     });
 
     console.log("Connected to MongoDB...");
