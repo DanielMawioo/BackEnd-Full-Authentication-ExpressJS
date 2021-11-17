@@ -1,0 +1,40 @@
+{
+  "name": "backend-full-authentication-expressjs",
+  "version": "1.0.0",
+  "description": "Full featured Node/Express backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Register",
+    "Verify",
+    "Account",
+    "Login",
+    "Resend",
+    "New",
+    "verification",
+    "Token",
+    "Get",
+    "an",
+    "Authenticated",
+    "user",
+    "Forgot",
+    "password",
+    "Reset",
+    "Password."
+  ],
+  "author": "Daniel Mawioo",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
